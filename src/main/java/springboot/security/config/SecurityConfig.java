@@ -16,8 +16,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 				.withUser("admin").password("password").roles("ADMIN");
 	}
 	
-	@Override
-	public void configure(HttpSecurity httpSecurity) throws Exception {
-		httpSecurity.authorizeRequests().antMatchers("/").permitAll();
-	}
+//	@Override
+//	public void configure(HttpSecurity httpSecurity) throws Exception {
+//		httpSecurity.authorizeRequests().antMatchers("/").permitAll();
+//	}
 }
