@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<title>base</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"  
+      href="../static/css/test.css" th:href="@{../static/css/test.css}" />
+      
+      <link rel="stylesheet" type="text/css" media="all"  
+      href="../static/css/bootstrap.min.css" th:href="@{../static/css/bootstrap.min.css}" />
+      
+      
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
+          th:href="@{/webjars/css/bootstrap.min.css}"
+          rel="stylesheet" media="screen" />
+      
+</head>
+
+	<body>
+		<div class="container" th:fragment="header">
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+					</button>
+					<a class="navbar-brand" href="/">Stacks</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/login">login</a></li>
+						<li class="active"><a href="/profile">profile</a></li>
+						<li class="active"><a href="/courses">classes</a></li>
+						<li class="active"><a href="/divy">divy</a></li>
+						<li class="active"><a href="/users">users</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		</div>
+	
+	</body>
+</html>
