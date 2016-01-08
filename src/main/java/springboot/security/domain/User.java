@@ -27,7 +27,7 @@ public class User {
 	
 	@Column(name="role", nullable=false)
 	@Enumerated(EnumType.STRING)
-	private String role;
+	private Role role;
 
 	public Long getId() {
 		return id;
@@ -53,14 +53,14 @@ public class User {
 		this.passwordHash = passwordHash;
 	}
 
-	public String getRole() {
+	
+	public Role getRole() {
 		return role;
 	}
 
-	public void setRole(String role) {
+	public void setRole(Role role) {
 		this.role = role;
 	}
-
 
 	@Override
 	public String toString() {
