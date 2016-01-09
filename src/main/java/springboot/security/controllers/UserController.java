@@ -4,7 +4,8 @@ import java.util.NoSuchElementException;
 
 import javax.validation.Valid;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -24,7 +25,7 @@ import springboot.security.service.UserService;
 @Controller
 public class UserController {
 	
-	private static final Logger LOGGER = Logger.getLogger(UserController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 	private final UserService userService;
 	private final UserCreateFormValidator userCreateFormValidator;
 
@@ -41,8 +42,7 @@ public class UserController {
 	@PreAuthorize("@curentUserServiceImp.canAccessUser(principal, #id)")
 	@RequestMapping("/user/{id}")
 	public ModelAndView getUserPage(@PathVariable Long id) {
-		//logger.debug giving an issue with id afer user
-		LOGGER.debug("Getting user page for user={}");
+		LOGGER.debug("Getting user page for user={}", id);
 		return new ModelAndView("user", "user", userService.getUserById(id)
 				.orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", id))));
 	}
@@ -57,9 +57,7 @@ public class UserController {
 	@PreAuthorize("hasAuthority('ADMIN')")
 	@RequestMapping(value="/user/create", method=RequestMethod.POST)
 	public String handleUserCreateForm(@Valid @ModelAttribute("form") UserCreateForm form, BindingResult bindingResult) {
-		//Should be below but debug acting funky
-		//LOGGER.debug("Processing user create form={}", form, bindingResult);
-		LOGGER.debug("Processing user create form={}");
+		LOGGER.debug("Processing user create form={}", form, bindingResult);
 		if (bindingResult.hasErrors()){
 			//failed validations
 			return "user_create";
