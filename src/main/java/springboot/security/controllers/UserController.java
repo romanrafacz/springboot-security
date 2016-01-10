@@ -20,7 +20,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import springboot.security.domain.UserCreateForm;
 import springboot.security.domain.validator.UserCreateFormValidator;
-import springboot.security.service.UserService;
+import springboot.security.service.user.UserService;
 
 @Controller
 public class UserController {

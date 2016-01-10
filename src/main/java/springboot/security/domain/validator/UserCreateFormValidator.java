@@ -6,7 +6,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import springboot.security.domain.UserCreateForm;
-import springboot.security.service.UserService;
+import springboot.security.service.user.UserService;
 
 public class UserCreateFormValidator implements Validator {
 
