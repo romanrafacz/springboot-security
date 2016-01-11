@@ -8,7 +8,7 @@ import springboot.security.domain.UserCreateForm;
 
 public interface UserService {
 	
-	Optional<User> getUserById(Long id);
+	Optional<User> getUserById(long id);
 	
 	Optional<User> getUserByEmail(String email);
 	

@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public Optional<User> getUserById(Long id) {
+	public Optional<User> getUserById(long id) {
 		LOGGER.debug("Getting user={}", id);
 		// TODO Auto-generated method stub
 		return Optional.ofNullable(userRepository.findOne(id));
