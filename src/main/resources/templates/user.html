@@ -17,23 +17,10 @@
 	</div>
 	
 	<div class="container">
-	<h2>Users page</h2>
-	
-	<table>
-    <thead>
-    <tr>
-        <th>E-mail</th>
-        <th>Role</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr th:each="user : ${users}">
-        <td><a href="/user/${user.id}" th:text="${user.email}">email</a></td>
-        <td align="right" th:text="${user.role}">role</td>
-    </tr>
-    </tbody>
-</table>
+	<h2>User profile</h2>
+	<p th:text={$users.email}></p>
+	<p th:text={$users.role}></p>
+
 	</div>
-	
 	</body>
 </html>
