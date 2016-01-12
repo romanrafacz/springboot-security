@@ -5,7 +5,6 @@ package springboot.security.service.currentuser;
 import springboot.security.domain.CurrentUser;
 import springboot.security.domain.User;
 import springboot.security.service.user.UserService;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
