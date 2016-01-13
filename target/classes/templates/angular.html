@@ -1,0 +1,31 @@
+<html xmlns:th="http://www.thymeleaf.org" data-ng-app="">
+
+<head>
+<title>angular</title>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all"  
+      href="/webjars/css/test.css" th:href="@{/css/test.css}" />
+      
+      <link rel="stylesheet" type="text/css" media="all"  
+      href="../../css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" />
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js" />
+</head>
+
+<body>
+	<div th:replace="fragments/header :: header">
+	</div>
+	
+	<div class="container">
+	<h2>Angular example</h2>
+	
+		<div>
+		<p>Enter name: <input type="text" name="name" ng-model="myname" /></p>
+		<p>Hello {{myname}}</p>
+		</div>
+	</div>
+
+
+</body>
+</html>
