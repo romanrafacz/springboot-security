@@ -19,8 +19,17 @@
 	<div class="container">
 	<h2>Create users page</h2>
 	
-	<form>
-	
+	<form th:action="@{/user/create}" method="post">
+	  		<div><label> Email : <input type="text" name="email"/> </label></div>
+            <div><label> Password: <input type="password" name="password"/> </label></div>     
+            <div><label> Repeat Password: <input type="password" name="passwordRepeated"/> </label></div>
+            <div><label> Email :</label>
+            <select name="role" id="role">
+            	<option>USER</option>
+            	<option>ADMIN</option>
+            </select>
+            </div>     
+            <div><input type="submit" value="Sign In"/></div>
 	</form>
 	
 	</div>
