@@ -5336,3 +5336,30 @@ INSERT INTO user (email, password_hash, role) VALUES ('demo@localhost', '$2a$10$
 2016-02-05 07:54:56.389 DEBUG 50855 --- [http-nio-8080-exec-8] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
 2016-02-05 07:54:56.389 DEBUG 50855 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user page for user=1
 2016-02-05 07:54:56.389 DEBUG 50855 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-02-05 07:58:50.791  INFO 50864 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 50864 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-05 07:58:50.795 DEBUG 50864 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-05 07:58:50.795  INFO 50864 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-02-05 07:58:53.300  INFO 50864 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-05 07:58:53.302  INFO 50864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-05 07:58:53.445  INFO 50864 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-05 07:58:57.670  INFO 50864 --- [main] springboot.security.BootApplication      : Started BootApplication in 7.235 seconds (JVM running for 7.662)
+2016-02-05 07:59:02.824  INFO 50864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-02-05 07:59:15.621 DEBUG 50864 --- [http-nio-8080-exec-6] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-02-05 07:59:15.623 DEBUG 50864 --- [http-nio-8080-exec-6] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-02-05 07:59:15.911 DEBUG 50864 --- [http-nio-8080-exec-7] s.security.service.user.UserServiceImpl  : Getting all users
+2016-02-05 07:59:19.442 DEBUG 50864 --- [http-nio-8080-exec-10] s.s.controllers.ProfileController        : Get profile page
+2016-02-05 07:59:20.848 DEBUG 50864 --- [http-nio-8080-exec-3] s.security.controllers.UserController    : Getting user create form
+2016-02-05 07:59:21.866 DEBUG 50864 --- [http-nio-8080-exec-6] s.security.service.user.UserServiceImpl  : Getting all users
+2016-02-05 07:59:23.466 DEBUG 50864 --- [http-nio-8080-exec-8] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
+2016-02-05 07:59:23.467 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user page for user=1
+2016-02-05 07:59:23.467 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-02-05 08:02:36.703 DEBUG 50864 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Getting all users
+2016-02-05 08:02:38.343 DEBUG 50864 --- [http-nio-8080-exec-3] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
+2016-02-05 08:02:38.343 DEBUG 50864 --- [http-nio-8080-exec-3] s.security.controllers.UserController    : Getting user page for user=1
+2016-02-05 08:02:38.343 DEBUG 50864 --- [http-nio-8080-exec-3] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-02-05 08:02:40.685 DEBUG 50864 --- [http-nio-8080-exec-9] s.s.controllers.ProfileController        : Get profile page
+2016-02-05 08:02:54.628 DEBUG 50864 --- [http-nio-8080-exec-3] s.security.controllers.UserController    : Getting user create form
+2016-02-05 08:02:56.014 DEBUG 50864 --- [http-nio-8080-exec-4] s.security.service.user.UserServiceImpl  : Getting all users
+2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
+2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user page for user=1
+2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting user=1
