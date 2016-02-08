@@ -5363,3 +5363,110 @@ INSERT INTO user (email, password_hash, role) VALUES ('demo@localhost', '$2a$10$
 2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
 2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user page for user=1
 2016-02-05 08:02:58.555 DEBUG 50864 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-02-08 13:22:04.788  INFO 59793 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 59793 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-08 13:22:04.788 DEBUG 59793 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-08 13:22:04.789  INFO 59793 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-02-08 13:22:10.421  INFO 59793 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 5.931 seconds (JVM running for 6.637)
+2016-02-08 13:22:25.510  INFO 59802 --- [main] springboot.security.BootApplication      : Starting BootApplication v0.0.1-SNAPSHOT on Teresas-MacBook-Pro.local with PID 59802 (/Users/Terri/Documents/workspace/springboot-security/target/boot-0.0.1-SNAPSHOT.jar started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-08 13:22:25.514 DEBUG 59802 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-08 13:22:25.514  INFO 59802 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-02-08 13:22:28.396  INFO 59802 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-08 13:22:28.397  INFO 59802 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-08 13:22:28.514  INFO 59802 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-08 13:22:33.545 ERROR 59802 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.Net.bind(Net.java:437) ~[na:1.8.0_45]
+	at sun.nio.ch.Net.bind(Net.java:429) ~[na:1.8.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:340) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:765) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:473) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) [tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) [tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1124) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1113) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at springboot.security.BootApplication.main(BootApplication.java:12) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+
+2016-02-08 13:22:33.548 ERROR 59802 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1124) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1113) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at springboot.security.BootApplication.main(BootApplication.java:12) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	... 19 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.Net.bind(Net.java:437) ~[na:1.8.0_45]
+	at sun.nio.ch.Net.bind(Net.java:429) ~[na:1.8.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:340) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:765) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:473) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) ~[tomcat-embed-core-8.0.30.jar!/:8.0.30]
+	... 20 common frames omitted
+
+2016-02-08 13:22:33.557  INFO 59802 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2016-02-08 13:22:33.568 ERROR 59802 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat servlet container
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:165) ~[spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) ~[spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) ~[spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) ~[spring-context-4.2.4.RELEASE.jar!/:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1124) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1113) [spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	at springboot.security.BootApplication.main(BootApplication.java:12) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53) [boot-0.0.1-SNAPSHOT.jar!/:0.0.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:159) ~[spring-boot-1.3.1.RELEASE.jar!/:1.3.1.RELEASE]
+	... 16 common frames omitted
+
