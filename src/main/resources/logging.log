@@ -5585,3 +5585,14 @@ Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
 2016-02-08 13:35:01.470  INFO 59860 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2016-02-08 13:35:06.312  INFO 59860 --- [main] springboot.security.BootApplication      : Started BootApplication in 8.551 seconds (JVM running for 9.135)
 2016-02-08 13:36:01.208  INFO 59860 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-02-08 17:31:17.257  INFO 60180 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 60180 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-08 17:31:17.261 DEBUG 60180 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-08 17:31:17.261  INFO 60180 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-02-08 17:31:19.719  INFO 60180 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-08 17:31:19.721  INFO 60180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-08 17:31:19.850  INFO 60180 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-08 17:31:23.621  INFO 60180 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.696 seconds (JVM running for 7.099)
+2016-02-15 10:38:47.704  INFO 9910 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 9910 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-15 10:38:47.705 DEBUG 9910 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-15 10:38:47.705  INFO 9910 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-02-15 10:38:53.927  INFO 9910 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.543 seconds (JVM running for 7.232)
