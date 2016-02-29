@@ -5714,3 +5714,11 @@ Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
 2016-02-15 11:25:08.829  INFO 10105 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
 2016-02-15 11:25:08.952  INFO 10105 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2016-02-15 11:25:13.980  INFO 10105 --- [main] springboot.security.BootApplication      : Started BootApplication in 8.588 seconds (JVM running for 9.208)
+2016-02-29 12:26:51.253  INFO 24783 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 24783 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-29 12:26:51.253 DEBUG 24783 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-29 12:26:51.254  INFO 24783 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-02-29 12:26:57.345  INFO 24783 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.399 seconds (JVM running for 7.116)
+2016-02-29 12:28:48.247  INFO 24821 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 24821 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-02-29 12:28:48.248 DEBUG 24821 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-02-29 12:28:48.248  INFO 24821 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-02-29 12:28:54.220  INFO 24821 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.259 seconds (JVM running for 6.917)

@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org" data-ng-app="">
+
+<!-- Use header default form fragments header -->
+<div th:replace="fragments/header :: head">
+
+</div>
+
+
+<body>
+	<div th:replace="fragments/menu :: menu">
+	</div>
+	
+	<div class="container">
+	<h2>Angular example</h2>
+	
+		<div>
+		<p>Enter name: <input type="text" name="name" ng-model="myname" /></p>
+		<p>Hello {{myname}}</p>
+		</div>
+
+	<div th:replace="fragments/footer :: footer">
+	</div>
+	</div>
+</body>
+</html>
