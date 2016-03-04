@@ -5751,3 +5751,7 @@ Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
 2016-03-04 10:01:44.367  INFO 34280 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2016-03-04 10:01:48.324  INFO 34280 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.926 seconds (JVM running for 7.386)
 2016-03-04 10:01:54.580  INFO 34280 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-04 10:04:31.650  INFO 34420 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 34420 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-04 10:04:31.651 DEBUG 34420 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-04 10:04:31.651  INFO 34420 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-03-04 10:04:37.400  INFO 34420 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.038 seconds (JVM running for 6.686)
