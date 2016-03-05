@@ -5989,3 +5989,28 @@ Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' a
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
 	... 40 common frames omitted
 
+2016-03-04 17:49:43.679  INFO 35089 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 35089 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-04 17:49:43.679 DEBUG 35089 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-04 17:49:43.680  INFO 35089 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-03-04 17:49:49.395  INFO 35089 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 5.995 seconds (JVM running for 6.613)
+2016-03-05 09:38:29.303  INFO 37210 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 37210 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 09:38:29.306 DEBUG 37210 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 09:38:29.307  INFO 37210 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 09:38:31.733  INFO 37210 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 09:38:31.734  INFO 37210 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 09:38:31.858  INFO 37210 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 09:38:35.781  INFO 37210 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.827 seconds (JVM running for 7.263)
+2016-03-05 09:39:45.613  INFO 37217 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 37217 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 09:39:45.617 DEBUG 37217 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 09:39:45.617  INFO 37217 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 09:39:48.085  INFO 37217 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 09:39:48.088  INFO 37217 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 09:39:48.210  INFO 37217 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 09:39:52.017  INFO 37217 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.748 seconds (JVM running for 7.14)
+2016-03-05 09:40:30.627  INFO 37218 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 37218 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 09:40:30.631 DEBUG 37218 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 09:40:30.631  INFO 37218 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 09:40:33.055  INFO 37218 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 09:40:33.057  INFO 37218 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 09:40:33.189  INFO 37218 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 09:40:36.935  INFO 37218 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.652 seconds (JVM running for 7.044)
