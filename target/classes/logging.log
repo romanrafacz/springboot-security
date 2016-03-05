@@ -6022,3 +6022,7 @@ Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' a
 2016-03-05 11:51:56.245 DEBUG 37725 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
 2016-03-05 11:51:56.245  INFO 37725 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
 2016-03-05 11:52:02.319  INFO 37725 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.359 seconds (JVM running for 7.078)
+2016-03-05 14:01:57.869  INFO 37914 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 37914 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 14:01:57.870 DEBUG 37914 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 14:01:57.871  INFO 37914 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-03-05 14:02:03.490  INFO 37914 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 5.905 seconds (JVM running for 6.57)
