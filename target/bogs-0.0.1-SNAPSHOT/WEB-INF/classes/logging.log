@@ -6014,3 +6014,7 @@ Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' a
 2016-03-05 09:40:33.057  INFO 37218 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
 2016-03-05 09:40:33.189  INFO 37218 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
 2016-03-05 09:40:36.935  INFO 37218 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.652 seconds (JVM running for 7.044)
+2016-03-05 11:07:32.081  INFO 37446 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 37446 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 11:07:32.082 DEBUG 37446 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 11:07:32.082  INFO 37446 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-03-05 11:07:37.880  INFO 37446 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.085 seconds (JVM running for 6.726)
