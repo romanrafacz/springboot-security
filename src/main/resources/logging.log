@@ -6030,3 +6030,72 @@ Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' a
 2016-03-05 14:10:07.226 DEBUG 38078 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
 2016-03-05 14:10:07.226  INFO 38078 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
 2016-03-05 14:10:12.759  INFO 38078 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 5.837 seconds (JVM running for 6.642)
+2016-03-05 16:47:05.051  INFO 38244 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 38244 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 16:47:05.055 DEBUG 38244 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 16:47:05.055  INFO 38244 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 16:47:07.408  INFO 38244 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 16:47:07.410  INFO 38244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 16:47:07.539  INFO 38244 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 16:47:11.278  INFO 38244 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.554 seconds (JVM running for 6.957)
+2016-03-05 16:47:39.152  INFO 38244 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-05 16:47:48.054 DEBUG 38244 --- [http-nio-8080-exec-2] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:47:48.056 DEBUG 38244 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:48:24.556  INFO 38246 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 38246 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 16:48:24.559 DEBUG 38246 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 16:48:24.560  INFO 38246 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 16:48:27.000  INFO 38246 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 16:48:27.002  INFO 38246 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 16:48:27.124  INFO 38246 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 16:48:30.847  INFO 38246 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.667 seconds (JVM running for 7.064)
+2016-03-05 16:48:41.434  INFO 38246 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-05 16:48:48.746 DEBUG 38246 --- [http-nio-8080-exec-5] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:48:48.748 DEBUG 38246 --- [http-nio-8080-exec-5] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:48:54.089 DEBUG 38246 --- [http-nio-8080-exec-2] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:48:54.089 DEBUG 38246 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:49:07.012 DEBUG 38246 --- [http-nio-8080-exec-3] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:49:07.012 DEBUG 38246 --- [http-nio-8080-exec-3] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:50:00.599  INFO 38247 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 38247 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 16:50:00.602 DEBUG 38247 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 16:50:00.603  INFO 38247 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-03-05 16:50:03.012  INFO 38247 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-03-05 16:50:03.014  INFO 38247 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-03-05 16:50:03.143  INFO 38247 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring embedded WebApplicationContext
+2016-03-05 16:50:06.830  INFO 38247 --- [main] springboot.security.BootApplication      : Started BootApplication in 6.559 seconds (JVM running for 6.949)
+2016-03-05 16:50:11.931  INFO 38247 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/springbooty]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-03-05 16:50:18.354 DEBUG 38247 --- [http-nio-8080-exec-5] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:50:18.356 DEBUG 38247 --- [http-nio-8080-exec-5] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:50:30.148 DEBUG 38247 --- [http-nio-8080-exec-10] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-03-05 16:50:30.149 DEBUG 38247 --- [http-nio-8080-exec-10] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-03-05 16:50:30.277 DEBUG 38247 --- [http-nio-8080-exec-9] s.security.controllers.UserController    : Getting user create form
+2016-03-05 16:50:44.406 DEBUG 38247 --- [http-nio-8080-exec-2] s.s.d.validator.UserCreateFormValidator  : Validating UserCreateForm{email= 'romanr32@gmail.com', password=***', role=ADMIN}
+2016-03-05 16:50:44.407 DEBUG 38247 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Get user by email=romanr32@gmail.com
+2016-03-05 16:50:44.409 DEBUG 38247 --- [http-nio-8080-exec-2] s.security.controllers.UserController    : Processing user create form=UserCreateForm{email= 'romanr32@gmail.com', password=***', role=ADMIN}
+2016-03-05 16:50:44.568 DEBUG 38247 --- [http-nio-8080-exec-4] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:50:46.147 DEBUG 38247 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user create form
+2016-03-05 16:50:46.992 DEBUG 38247 --- [http-nio-8080-exec-9] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:50:47.783 DEBUG 38247 --- [http-nio-8080-exec-2] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:50:49.585 DEBUG 38247 --- [http-nio-8080-exec-7] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:50:50.731 DEBUG 38247 --- [http-nio-8080-exec-3] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=2
+2016-03-05 16:50:50.731 DEBUG 38247 --- [http-nio-8080-exec-3] s.security.controllers.UserController    : Getting user page for user=2
+2016-03-05 16:50:50.732 DEBUG 38247 --- [http-nio-8080-exec-3] s.security.service.user.UserServiceImpl  : Getting user=2
+2016-03-05 16:50:51.959 DEBUG 38247 --- [http-nio-8080-exec-4] s.security.controllers.UserController    : Getting user create form
+2016-03-05 16:50:53.251 DEBUG 38247 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:50:53.977 DEBUG 38247 --- [http-nio-8080-exec-1] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=2
+2016-03-05 16:50:53.977 DEBUG 38247 --- [http-nio-8080-exec-1] s.security.controllers.UserController    : Getting user page for user=2
+2016-03-05 16:50:53.978 DEBUG 38247 --- [http-nio-8080-exec-1] s.security.service.user.UserServiceImpl  : Getting user=2
+2016-03-05 16:50:55.121 DEBUG 38247 --- [http-nio-8080-exec-6] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:50:56.739 DEBUG 38247 --- [http-nio-8080-exec-7] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:50:57.358 DEBUG 38247 --- [http-nio-8080-exec-2] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:51:00.050 DEBUG 38247 --- [http-nio-8080-exec-10] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:51:01.239 DEBUG 38247 --- [http-nio-8080-exec-9] s.security.controllers.UserController    : Getting user create form
+2016-03-05 16:51:02.750 DEBUG 38247 --- [http-nio-8080-exec-3] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:51:03.558 DEBUG 38247 --- [http-nio-8080-exec-6] s.security.service.user.UserServiceImpl  : Getting all users
+2016-03-05 16:51:04.943 DEBUG 38247 --- [http-nio-8080-exec-8] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
+2016-03-05 16:51:04.944 DEBUG 38247 --- [http-nio-8080-exec-8] s.security.controllers.UserController    : Getting user page for user=1
+2016-03-05 16:51:04.944 DEBUG 38247 --- [http-nio-8080-exec-8] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-03-05 16:51:07.138 DEBUG 38247 --- [http-nio-8080-exec-1] s.s.controllers.ProfileController        : Get profile page
+2016-03-05 16:51:08.836 DEBUG 38247 --- [http-nio-8080-exec-4] s.security.controllers.UserController    : Getting user create form
+2016-03-05 16:51:34.777  INFO 38263 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 38263 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-03-05 16:51:34.777 DEBUG 38263 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-03-05 16:51:34.778  INFO 38263 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-03-05 16:51:40.500  INFO 38263 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 6.004 seconds (JVM running for 6.647)
