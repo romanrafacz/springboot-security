@@ -6222,3 +6222,32 @@ Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
 2016-05-24 12:28:59.936 DEBUG 5242 --- [http-nio-8080-exec-7] s.security.controllers.UserController    : Getting user page for user=2
 2016-05-24 12:28:59.936 DEBUG 5242 --- [http-nio-8080-exec-7] s.security.service.user.UserServiceImpl  : Getting user=2
 2016-05-24 12:29:02.268 DEBUG 5242 --- [http-nio-8080-exec-2] s.s.controllers.ProfileController        : Get profile page
+2016-06-23 18:29:35.621  INFO 3588 --- [main] s.security.BootApplicationTests          : Starting BootApplicationTests on Teresas-MacBook-Pro.local with PID 3588 (/Users/Terri/Documents/workspace/springboot-security/target/test-classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-06-23 18:29:35.621 DEBUG 3588 --- [main] s.security.BootApplicationTests          : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-06-23 18:29:35.622  INFO 3588 --- [main] s.security.BootApplicationTests          : No active profile set, falling back to default profiles: default
+2016-06-23 18:29:44.098  INFO 3588 --- [main] s.security.BootApplicationTests          : Started BootApplicationTests in 8.859 seconds (JVM running for 9.728)
+2016-09-09 10:15:20.182  INFO 47550 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 47550 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-09-09 10:15:20.186 DEBUG 47550 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-09-09 10:15:20.186  INFO 47550 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-09-09 10:15:23.426  INFO 47550 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-09 10:15:23.428  INFO 47550 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-09-09 10:15:23.558  INFO 47550 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-09 10:15:28.940  INFO 47550 --- [main] springboot.security.BootApplication      : Started BootApplication in 9.245 seconds (JVM running for 9.949)
+2016-09-09 10:15:35.859  INFO 47550 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-09 10:15:57.992 DEBUG 47550 --- [http-nio-8080-exec-1] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-09-09 10:15:57.994 DEBUG 47550 --- [http-nio-8080-exec-1] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
+2016-09-09 10:15:58.291 DEBUG 47550 --- [http-nio-8080-exec-2] s.s.controllers.ProfileController        : Get profile page
+2016-09-09 10:16:00.399 DEBUG 47550 --- [http-nio-8080-exec-1] s.security.service.user.UserServiceImpl  : Getting all users
+2016-09-09 10:16:01.977 DEBUG 47550 --- [http-nio-8080-exec-2] s.s.s.c.CurrentUserServiceImpl           : Check if user=CurrentUser{user=User{id=1, email=demo@localhost, passwordHash=$2a$10$eby, role=ADMIN}} springboot.security.domain.CurrentUser@f4b0ad76: Username: demo@localhost; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ADMIN has access to current user=1
+2016-09-09 10:16:01.992 DEBUG 47550 --- [http-nio-8080-exec-2] s.security.controllers.UserController    : Getting user page for user=1
+2016-09-09 10:16:01.993 DEBUG 47550 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Getting user=1
+2016-09-14 10:20:49.873  INFO 60969 --- [main] springboot.security.BootApplication      : Starting BootApplication on Teresas-MacBook-Pro.local with PID 60969 (/Users/Terri/Documents/workspace/springboot-security/target/classes started by Terri in /Users/Terri/Documents/workspace/springboot-security)
+2016-09-14 10:20:49.876 DEBUG 60969 --- [main] springboot.security.BootApplication      : Running with Spring Boot v1.3.1.RELEASE, Spring v4.2.4.RELEASE
+2016-09-14 10:20:49.876  INFO 60969 --- [main] springboot.security.BootApplication      : No active profile set, falling back to default profiles: default
+2016-09-14 10:20:52.553  INFO 60969 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-14 10:20:52.555  INFO 60969 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-09-14 10:20:52.666  INFO 60969 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-14 10:20:56.740  INFO 60969 --- [main] springboot.security.BootApplication      : Started BootApplication in 7.198 seconds (JVM running for 7.818)
+2016-09-14 10:21:01.409  INFO 60969 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-09-14 10:22:28.969 DEBUG 60969 --- [http-nio-8080-exec-2] s.s.s.c.CurrentUserDetailsService        : Authenticating user with email=demo@***
+2016-09-14 10:22:28.971 DEBUG 60969 --- [http-nio-8080-exec-2] s.security.service.user.UserServiceImpl  : Get user by email=demo@localhost
